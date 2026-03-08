@@ -1,5 +1,5 @@
-const express = require('express');
-const cors = require('cors');
+import express from "express";
+import cors from "cors";
 import courseRoutes from "./routes/courses.js";
 import logger from "./middleware/logger.js";
 
